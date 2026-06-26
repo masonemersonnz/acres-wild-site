@@ -1,0 +1,56 @@
+{
+  "heading": "Simple, all-inclusive rates",
+  "subheading": "All lessons include use of a pony, riding helmet, boots and tack. No hidden extras.",
+  "cards": [
+    {
+      "name": "10-Lesson Term Block",
+      "price": "400",
+      "price_suffix": "",
+      "per": "per term · best value",
+      "desc": "Secures your child's place each school term. This is the recommended option — casual spots fill quickly.",
+      "featured": true
+    },
+    {
+      "name": "Casual Lesson",
+      "price": "45",
+      "price_suffix": "–50",
+      "per": "per session · subject to availability",
+      "desc": "$45 for kids, $50 for adults. Always book ahead — we can't guarantee a spot on the day.",
+      "featured": false
+    },
+    {
+      "name": "Holiday Programme",
+      "price": "45",
+      "price_suffix": "–70",
+      "per": "half day $45 · full day $70",
+      "desc": "School holiday fun days with riding, games and activities. Great for regular riders and newcomers alike.",
+      "featured": false
+    },
+    {
+      "name": "Birthday Party",
+      "price": "45",
+      "price_suffix": "",
+      "per": "per child",
+      "desc": "An unforgettable party. Kids ride, play games on horseback and leave with big smiles.",
+      "featured": false
+    },
+    {
+      "name": "Overnight Camp",
+      "price": "140",
+      "price_suffix": "",
+      "per": "2-day camp",
+      "desc": "A two-day immersive horse experience. Riders care for ponies, camp out and ride — a proper adventure.",
+      "featured": false
+    },
+    {
+      "name": "Schools & Groups",
+      "price": "Custom",
+      "price_suffix": "",
+      "per": "enquire for pricing",
+      "desc": "Customised riding for schools and special interest groups. Get in touch to discuss your requirements.",
+      "featured": false
+    }
+  ],
+  "note": "* Prices current to January 2026 and may increase. Please enquire before booking.",
+  "ponies_note": "Have a suitable pony for sale? Please contact us."
+}

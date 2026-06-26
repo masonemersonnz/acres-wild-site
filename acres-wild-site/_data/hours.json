@@ -1,0 +1,7 @@
+{
+  "days": [
+    { "day": "Tue – Fri", "time": "3:00pm – 5:00pm" },
+    { "day": "Saturday", "time": "9:30am – 12:00pm" },
+    { "day": "Sun – Mon", "time": "Closed (ponies rest)" }
+  ]
+}
