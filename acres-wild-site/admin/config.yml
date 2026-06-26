@@ -12,6 +12,7 @@ collections:
       - name: "general"
         label: "General Info"
         file: "_data/general.json"
+        format: "json"
         fields:
           - { label: "Site Title", name: "site_title", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "string" }
@@ -24,6 +25,7 @@ collections:
       - name: "hero"
         label: "Hero Section"
         file: "_data/hero.json"
+        format: "json"
         fields:
           - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
           - { label: "Headline Line 1", name: "headline1", widget: "string" }
@@ -34,6 +36,7 @@ collections:
       - name: "about"
         label: "About Section"
         file: "_data/about.json"
+        format: "json"
         fields:
           - { label: "Heading", name: "heading", widget: "string" }
           - { label: "Paragraph 1", name: "para1", widget: "text" }
@@ -44,6 +47,7 @@ collections:
       - name: "pricing"
         label: "Pricing Section"
         file: "_data/pricing.json"
+        format: "json"
         fields:
           - { label: "Section Heading", name: "heading", widget: "string" }
           - { label: "Subheading", name: "subheading", widget: "string" }
@@ -52,17 +56,18 @@ collections:
             widget: "list"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price (number only)", name: "price", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
               - { label: "Price Suffix (e.g. –50)", name: "price_suffix", widget: "string", required: false }
               - { label: "Per Line", name: "per", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Featured (highlight this card)", name: "featured", widget: "boolean", default: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
           - { label: "Pricing Note", name: "note", widget: "string" }
           - { label: "Ponies for Sale Line", name: "ponies_note", widget: "string" }
 
       - name: "gallery"
         label: "Gallery"
         file: "_data/gallery.json"
+        format: "json"
         fields:
           - label: "Photos"
             name: "photos"
@@ -74,6 +79,7 @@ collections:
       - name: "hours"
         label: "Opening Hours"
         file: "_data/hours.json"
+        format: "json"
         fields:
           - label: "Days"
             name: "days"
