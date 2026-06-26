@@ -835,15 +835,12 @@
       .hamburger { display: flex; }
     }
 
-    
-      .contact-form-wrap { order: 1; }
-      .contact-info { order: 2; }
-    }
 
     @media (max-width: 900px) {
-      #contact { display: flex !important; flex-direction: column !important; }
-      .contact-form-wrap { order: 1 !important; }
-      .contact-info { order: 2 !important; }
+      #contact { display: flex; flex-direction: column; gap: 40px; }
+      .contact-info { order: 1; }
+      .contact-form-wrap { order: 2; }
+      .contact-map { order: 3; }
     }
   </style>
 </head>
@@ -860,7 +857,7 @@
     <li><a href="#how">How It Works</a></li>
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#contact" class="nav-cta">Book a Lesson</a></li>
+    <li><a href="#contact-details" class="nav-cta">Book a Lesson</a></li>
   </ul>
 </nav>
 
@@ -869,7 +866,8 @@
   <a href="#how" onclick="closeMenu()">How It Works</a>
   <a href="#pricing" onclick="closeMenu()">Pricing</a>
   <a href="#gallery" onclick="closeMenu()">Gallery</a>
-  <a href="#contact" class="mobile-cta" onclick="closeMenu()">Book a Lesson</a>
+  <a href="#contact-details" class="mobile-cta" onclick="closeMenu()">Call / Email</a>
+  <a href="#contact-form" class="mobile-cta" onclick="closeMenu()">Send a Message</a>
 </div>
 
 <!-- HERO -->
@@ -881,7 +879,7 @@
     <h1 class="hero-headline">The most fun<br>you'll have<br><em>on horseback</em></h1>
     <p class="hero-sub">Acres Wild Riding School offers riding lessons for children aged 5+, run by experienced horsewoman Janine Emerson, who's been teaching in Hawke's Bay for more than 25 years. The riding school has a team of wonderful ponies, great for absolute beginners, or riders wanting to learn to jump and develop their all-around horsemanship skills.</p>
     <div class="hero-actions">
-      <a href="#contact" class="btn-primary">Book a Lesson</a>
+      <a href="#contact-details" class="btn-primary">Book a Lesson</a>
       <a href="#about" class="btn-ghost">Learn More</a>
     </div>
   </div>
@@ -998,7 +996,7 @@
       </div>
     </div>
     <p class="pricing-note">* Prices current to January 2026 and may increase. Please enquire before booking.</p>
-    <p class="pricing-note" style="margin-top: 10px;">🐴 Have a suitable pony for sale? <a href="#contact" style="color: var(--gold-lt);">Please contact us.</a></p>
+    <p class="pricing-note" style="margin-top: 10px;">🐴 Have a suitable pony for sale? <a href="#contact-details" style="color: var(--gold-lt);">Please contact us.</a></p>
   </div>
 </section>
 
@@ -1053,10 +1051,12 @@
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="contact-info">
+  <div class="contact-info" id="contact-details">
+    <div class="contact-heading" id="contact-heading">
     <p class="section-label">Get In Touch</p>
     <h2 class="section-title">Ready to ride?</h2>
     <p class="section-body" style="margin-bottom: 40px;">Get in touch to check availability and book a place. Lessons fill up quickly each term, so it's worth reaching out early.</p>
+    </div>
 
     <div class="contact-detail">
       <div class="contact-icon">
@@ -1098,7 +1098,7 @@
       </div>
     </div>
 
-    <div class="map-embed">
+    <div class="contact-map"><div class="map-embed">
       <a href="https://maps.app.goo.gl/CbvjhD9BAe1ZBcDR7" target="_blank" style="display:block;">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.126591490735!2d176.79466451552383!3d-39.669366850243186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d69c91600b532ab%3A0xdf5b7394429bcaf!2s93%20Paki%20Paki%20Road%2C%20Longlands%2C%20Hastings%204174!5e0!3m2!1sen!2snz!4v1635540855932!5m2!1sen!2snz"
@@ -1109,8 +1109,9 @@
       </a>
     </div>
   </div>
+    </div>
 
-  <div class="contact-form-wrap">
+  <div class="contact-form-wrap" id="contact-form">
     <h3>Send a message</h3>
     <p>We'll get back to you as soon as we can.</p>
     <div class="form-row">
@@ -1162,7 +1163,7 @@
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#gallery">Gallery</a></li>
     <li><a href="https://www.facebook.com/Acreswild-Riding-School-0274546516-136093489792990" target="_blank">Facebook</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact-details">Contact</a></li>
   </ul>
   <p class="footer-copy">&copy; 2025 Acres Wild Riding School</p>
 </footer>
